@@ -1,0 +1,14 @@
+{
+  "name": "rest-pdf-playwright-adapter",
+  "version": "0.0.1",
+  "author": "Christian Fehmer",
+  "description": "converts posted html into pdf using remote playwright",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "playwright": "^1.7.1"
+  }
+}
